@@ -8,7 +8,8 @@ function Sidebar() {
                     <div class="profile">
                         <img src="img/profile-img.png" alt="Profile Picture"
                              class="img-fluid rounded-circle"/>
-                        <h1 class="text-light"><a href="/">Imran H. Shakil</a></h1>
+                        <h1 class="text-light"><a href="/">Imran Hossain</a></h1>
+                        <h5 class="text-light"><a href="/">Full Stack Software Developer</a></h5>
                         <div class="social-links mt-3 text-center">
                             <a href="" class="home"><i class="bx bi-globe"/></a>
                             <a href="https://www.linkedin.com/in/imran-hossain-shakil/" class="linkedin"

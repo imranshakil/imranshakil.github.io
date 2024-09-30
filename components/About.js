@@ -17,7 +17,7 @@ function About() {
                     <div className="section-title">
                         <h2>About</h2>
                         <p className="py-1">
-                            My name is <b>Imran</b> H. Shakil, a self-taught Full-Stack Software Developer from Bangladesh. My
+                            My name is <b>Imran</b> Hossain, a self-taught Full-Stack Software Developer from Bangladesh. My
                             journey into programming began in mid-2016 when I became fascinated by modern technology,
                             particularly software development. I started my career as a beginner at Creative IT Soft
                             (CIS), and since then, I have been continuously learning and growing in the field.
