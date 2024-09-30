@@ -1,0 +1,185 @@
+{
+  "name": "Portfolio Project Data",
+  "version": "1.0.1",
+  "desc": "",
+  "portfolio": [
+    {
+      "name": "CIS Tech Web Content Management System",
+      "platform": "Web",
+      "cover_img": "img/portfolio/web/app01/01.png",
+      "project_link": "https://cistechltd.com/",
+      "short_intro": "CIS Tech Ltd. is a technology consulting and software development company based in Bangladesh. They provide a wide range of services, including web and mobile application development, software testing, and IT consulting. Their website, cistechltd.com, offers information about their services, portfolio, and company culture.",
+      "tech_stack": ["HTML", "CSS", "JS", "PHP", "Laravel", "Mysql"],
+      "duration": "6 Months",
+      "role": "Full-Stack Developer",
+      "additional": ""
+    },
+    {
+      "name": "Yotta Small & Medium Enterprise Application",
+      "platform": "Web",
+      "cover_img": "img/portfolio/web/app06/02.png",
+      "project_link": "https://yottaerp.com/",
+      "short_intro": "Yotta SME is a product of CIS Tech Ltd. It's an all-in-one cloud-based software solution for small and medium-sized businesses. It offers accounting, inventory, procurements, POS, asset management, customer management, product management, and human resource management to manage any business.\nThat processes all your tasks over smartphones, tablets, laptops, and any platform. It's Android and iOS app allows you to monitor your stock, accounts, and all of your business processes from all over the world.\nIt serves businesses like restaurants, accounting firms, retail stores, super shops, mobile-shop, chemical-shop, and many more ways it can be used.",
+      "tech_stack": ["Python", "Django", "MongoDB", "Rest API", "React.js", "Ant Design", "JSON", "API", "UI/UX"],
+      "duration": "Min-2023 to Continues",
+      "role": "Product Manager",
+      "additional": ""
+    },
+    {
+      "name": "Yotta ERP SaaS Website",
+      "platform": "Web",
+      "cover_img": "img/portfolio/web/app05/01.png",
+      "project_link": "https://yottaerp.com/",
+      "short_intro": "YOTTA ERP is a product of CIS TECH LTD. (Chain of Innovative Solutions & Technology Limited). It provides custom software development services based on Software as a service(SaaS) and Software as a Product(SaaP). CIS started its' journey in 2012 and was re-inaugurated in Jan 2022. CIS transforms businesses with affordable, efficient, and adaptable digital solutions that satisfy the needs of today and unlocks the opportunities for tomorrow. Based on many years of experience, we know that every business has a different software and hardware environment. We specialize in scalable and reliable software solutions for any computing system, operating system, browser, and device. We involve deep industry expertise and the latest IT advancements to deliver custom solutions and products for individuals, startups, and small to medium businesses. CIS has the ideology to leave a mark in the field of Innovation and technology as a well-established company.",
+      "tech_stack": ["React.js", "TypeScript", "Tailwind CSS", "JSON", "API"],
+      "duration": "3 Months",
+      "role": "Front-End Developer",
+      "additional": ""
+    },
+    {
+      "name": "Golden Treasure Inc.",
+      "platform": "iOS & Android",
+      "cover_img": "img/portfolio/apple/app01/01.png",
+      "project_link": "https://goldentreasuresinc.com/",
+      "short_intro": "Golden Treasures is a financial mobile application on android and ios, this apps main features is to invest money by group and individually.",
+      "tech_stack": ["iOS", "Swift", "SwiftUI", "Stripe", "CoreData", "Alamofire", "JSON", "API", "||", "Android", "Java", "XML", "Stripe", "SqLite", "JSON", "API"],
+      "duration": "3 Months",
+      "role": "Android & iOS Developer",
+      "additional": ""
+    },
+    {
+      "name": "Easy to Manage.",
+      "platform": "Web",
+      "cover_img": "img/portfolio/web/app02/01.png",
+      "project_link": "https://www.easy2manage.co.uk/",
+      "short_intro": "Writing",
+      "tech_stack": ["React.js", "TypeScript", "Tailwind CSS", "API", "Stripe", "JSON", "API"],
+      "duration": "6 Months",
+      "role": "Front-End Developer",
+      "additional": ""
+    },
+    {
+      "name": "Union Council Data Platform(UCDP)",
+      "platform": "Web",
+      "cover_img": "img/portfolio/web/app03/01.png",
+      "project_link": "https://www.ucdpbd.org/",
+      "short_intro": "Writing",
+      "tech_stack": ["PHP", "Laravel", "MySQL", "React.js", "NextJS", "API", "JSON", "API"],
+      "duration": "2 Months",
+      "role": "Full-Stack Developer",
+      "additional": ""
+    },
+
+    {
+      "name": "Easy to Manage Cleaning Apps",
+      "platform": "iOS",
+      "cover_img": "img/portfolio/apple/app02/01.png",
+      "project_link": "https://appstore.com/",
+      "short_intro": "Writing",
+      "tech_stack": ["iOS", "Swift", "SwiftUI", "CoreData", "Alamofire", "JSON", "API"],
+      "duration": "2 Months",
+      "role": "iOS Developer",
+      "additional": ""
+    },
+    {
+      "name": "Easy to Manage Customer Booking Apps",
+      "platform": "iOS & Android",
+      "cover_img": "img/portfolio/apple/app03/01.png",
+      "project_link": "https://appstore.com/",
+      "short_intro": "Writing",
+      "tech_stack": ["iOS", "Swift", "SwiftUI", "CoreData", "Stripe", "Alamofire", "JSON", "API", "||", "Android", "Java", "XML", "Stripe", "SqLite", "JSON", "API"],
+      "duration": "3 Months",
+      "role": "iOS Developer",
+      "additional": ""
+    },
+    {
+      "name": "Shakib 75 Healthcare",
+      "platform": "Web",
+      "cover_img": "img/portfolio/web/app04/01.png",
+      "project_link": "https://shakib75.health/",
+      "short_intro": "Writing",
+      "tech_stack": ["React.js", "Bootstrap", "JSON", "API"],
+      "duration": "3 Months",
+      "role": "Front-End Developer",
+      "additional": ""
+    },
+    {
+      "name": "Yotta SME SaaS Website",
+      "platform": "Web",
+      "cover_img": "img/portfolio/web/app06/01.png",
+      "project_link": "https://yottaerp.com/",
+      "short_intro": "Writing",
+      "tech_stack": ["PHP", "Laravel", "MySql", "HTML", "CSS", "Bootstrap", "JSON", "API"],
+      "duration": "1 Year",
+      "role": "Full-Stack Developer",
+      "additional": ""
+    },
+    {
+      "name": "Wealth Link - Financial Application",
+      "platform": "iOS",
+      "cover_img": "img/portfolio/apple/app04/2.png",
+      "project_link": "https://github.com/",
+      "short_intro": "Writing",
+      "tech_stack": ["iOS", "Swift", "SwiftUI", "CoreData", "Alamofire", "JSON", "API"],
+      "duration": "2 Months",
+      "role": "iOS Developer",
+      "additional": ""
+    },
+    {
+      "name": "Hotel Management System",
+      "platform": "Web",
+      "cover_img": "img/portfolio/web/app07/01.png",
+      "project_link": "https://cistechltd.com/",
+      "short_intro": "Writing",
+      "tech_stack": ["PHP", "MySql", "HTML", "CSS", "Bootstrap", "JSON", "API"],
+      "duration": "1 Year",
+      "role": "Junior Software Developer",
+      "additional": ""
+    },
+    {
+      "name": "Optimization of Energy Usage for Edifice Electrical Appliances Using IoT.",
+      "platform": "IoT",
+      "cover_img": "img/portfolio/iot/app01/01.png",
+      "project_link": "https://github.com/imranshakil",
+      "short_intro": "The inefficiency of energy usage at various institutes is rising and it is an increasing concern in urban areas. The purpose of this project is to introduce a new platform that facilitates the optimization of energy usage for electrical appliances of a home or office with the use of a number of integrated IoT devices to ensure an interactive, user-friendly, and intelligent operation for viewing and controlling the power consumption of the home or office. The proposed platform includes a number of room with various sensors connected close to the equipment loads which will detect and transfer the data to a room energy management open source software that allows sensing and control of AC loads at a small or a medium-sized home or commercial building. Finally, the purpose would be to extract the energy consumption data from the energy meter and transfer it onto a database that will show the user how much of the energy is being consumed throughout the process. Afterward, the user can improve energy efficiency, reduce energy consumption, and foster demand response implementation of power utilities. \nPossible challenges during the implementation of the hardware will be as follows. Firstly, the collection of input from multiple loads using less number of sensors and lastly, the collection of data from an energy meter and entering these data into the database for monitoring and controlling purposes. The first challenge can be solved by the use of a set of sensors to detect input from a number of loads and then, sending the signal onto a Raspberry Pi which detects and transfers the data onto the database for monitoring and controlling of these loads. Load controlling will use a relay connected to Raspberry Pi that can control the 220V loads using 5V only. After we obtain the algorithm for an energy meter, we will use it onto our software for the collection of the data onto our database. Thus, the user can get all the data sources that could allow him to effectively control the energy usage of the room appliances.\nFurther study is required for the development of this project because with the development of energy meters throughout the years, the algorithms might change and the collection procedure might vary. Therefore, we need a competent way to collect the data from any energy meter available. In the initial phase the proposed system will work without the use of smart appliance. However, in the future, we shall be using smart appliances to a much greater extent to make our system more efficient.\nIn conclusion, we will design and develop a smart system to upgrade our energy usage of electrical appliances in our everyday lives that not only saves energy but also allows us to smartly operate our home or office and will also reduce energy costs.",
+      "tech_stack": ["Python", "Django", "ChartJs", "CSS", "Bootstrap", "JSON", "API", "Raspberry PI", "Energy Measurement Meter(PZEM-004t)", "Sensors"],
+      "duration": "1 Year",
+      "role": "Thesis Researcher",
+      "additional": ""
+    },
+    {
+      "name": "Automated Garden Watering System",
+      "platform": "IoT & Electronics",
+      "cover_img": "img/portfolio/iot/app02/01.png",
+      "project_link": "https://github.com/imranshakil",
+      "short_intro": "Writing",
+      "tech_stack": ["Arduino", "Motor", "Timer", "Sensors"],
+      "duration": "10 Day",
+      "role": "",
+      "additional": ""
+    },
+    {
+      "name": "Poultry Farm Management System",
+      "platform": "Web",
+      "cover_img": "img/portfolio/web/app08/01.png",
+      "project_link": "https://delz.yottaerp.com/",
+      "short_intro": "Writing",
+      "tech_stack": ["PHP", "Laravel", "MySql", "Reactjs", "Bootstrap", "JSON", "API"],
+      "duration": "Continue",
+      "role": "Full-Stack Support Developer",
+      "additional": ""
+    },
+    {
+      "name": "Internet of things (IOT) Do & Try",
+      "platform": "IoT",
+      "cover_img": "img/portfolio/iot/app00/01.jpeg",
+      "project_link": "https://github.com/imranshakil",
+      "short_intro": "Writing",
+      "tech_stack": ["Raspberry_pi", "ESP32", "ESP8266", "Arduino", "GPS", "GSM", "Moisture sensor", "Digital IC", "Motor",
+        "Electronics", "Sonar", "LDR", "Temperature", "Gas Sensor", "C++"],
+      "duration": "1 year",
+      "role": "",
+      "additional": ""
+    }
+  ]
+}
