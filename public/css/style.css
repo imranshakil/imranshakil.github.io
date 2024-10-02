@@ -332,6 +332,7 @@ section {
 
 .section-title {
   padding-bottom: 30px;
+  text-align: justify;
 }
 
 .section-title h2 {
@@ -342,7 +343,14 @@ section {
   position: relative;
   color: #173b6c;
 }
-
+.designation {
+  text-align: center;
+  color: #a8a9b4;
+  font-size: 16px;
+}
+.profile {
+  text-align: center;
+}
 .section-title h2::after {
   content: "";
   position: absolute;
@@ -383,7 +391,7 @@ section {
 }
 
 .about .content ul i {
-  font-size: 16px;
+  font-size: 18px;
   margin-right: 5px;
   color: #149ddd;
   line-height: 0;

@@ -27,7 +27,7 @@ function Portfolio() {
                                 <li data-filter=".iOS">iOS</li>
                                 <li data-filter=".Android">Android</li>
                                 <li data-filter=".Electronics">Electronics</li>
-                                <li data-filter=".IoT">IoT</li>
+                                <li data-filter=".IoT">IoT & Robotics</li>
                                 <li data-filter=".Others">Others</li>
                             </ul>
                         </div>

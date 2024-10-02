@@ -32,7 +32,7 @@ function Skills() {
                 <div className="container">
 
                     <div className="section-title">
-                        <h2>Skills</h2>
+                        <h2>Skills & Strengths</h2>
                         <p>
                             I hold immense respect and gratitude towards the ingenious tech creators, scientists, and
                             engineers who generously provide free content on the internet. Their efforts in solving

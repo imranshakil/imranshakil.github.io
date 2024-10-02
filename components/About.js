@@ -53,7 +53,7 @@ function About() {
                             <img src="img/profile-img.png" className="img-fluid" alt=""/>
                         </div>
                         <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                            <h3>Electrical Engineer &amp; Computer Programmer.</h3>
+                            <h3>Full Stack Software Developer</h3>
                             <p className="fst-italic">
                                 As a Full-Stack Software Developer with a Bachelor's in Electrical & Electronics
                                 Engineering. And, diverse experiences have shaped me into a well-rounded individual with
@@ -62,28 +62,31 @@ function About() {
                             <div className="row">
                                 <div className="col-lg-6">
                                     <ul>
-                                        <li><i className="bi bi-chevron-right"/> <strong>Birthday:</strong>
-                                            <span>November 1996</span></li>
+                                        <li><i className="bi bi-chevron-right"/> <strong>Education:</strong>
+                                            <span>B.Sc in EEE</span>
+                                        </li>
+                                        <li><i className="bi bi-chevron-right"/> <strong>Date of Birth:</strong>
+                                            <span>November 1996</span>
+                                        </li>
                                         <li><i className="bi bi-chevron-right"/> <strong>Blood Group:</strong>
-                                            <span>A-</span></li>
+                                            <span>A-</span>
+                                        </li>
                                         <li><i className="bi bi-chevron-right"/> <strong>Phone:</strong>
-                                            <span>+880 1830 521516</span></li>
-                                        <li><i className="bi bi-chevron-right"/> <strong>Address:</strong>
-                                            <span>Dhaka, Bangladesh.</span></li>
+                                            <span>+880 1830 521516</span>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className="col-lg-6">
                                     <ul>
-                                        <li><i className="bi bi-chevron-right"/> <strong>Age:</strong>
-                                            <span>{years} years {months} months</span></li>
-                                        <li><i className="bi bi-chevron-right"/> <strong>Education:</strong>
-                                            <span>B.Sc in EEE</span>
+                                        <li><i className="bi bi-chevron-right"/> <strong>Freelance:</strong>
+                                            <span>Available</span>
                                         </li>
                                         <li><i className="bi bi-chevron-right"/> <strong>Email:</strong>
                                             <span>imranshakil77@gmail.com</span>
                                         </li>
-                                        <li><i className="bi bi-chevron-right"/> <strong>Freelance:</strong>
-                                            <span>Available</span></li>
+                                        <li><i className="bi bi-chevron-right"/> <strong>Address:</strong>
+                                            <span>Dhaka, Bangladesh.</span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>

@@ -14,6 +14,49 @@ function Resume() {
 
                     <div className="row">
                         <div className="col-lg-6" data-aos="fade-up">
+                            <h3 className="resume-title">Academic Education</h3>
+                            <div className="resume-item">
+                                <h4>B.sc in Electrical and Electronics Engineering (EEE).</h4>
+                                <h5>Spring-2022</h5>
+                                <p><b>Institution: </b><em>United International University(UIU), Dhaka, Bangladesh.</em>
+                                </p>
+                                <p>
+                                    At university, I prioritized problem-solving and project-based learning over
+                                    academic results to shape my individuality and build a strong foundation for my
+                                    present.
+                                </p>
+                                <ul>
+                                    <li><b>Thesis: </b>
+                                        Optimization of Energy Usage for Edifice Electrical Appliances Using IoT.
+                                    </li>
+                                    <li><b>Competitions: </b>
+                                        <ul>
+                                            <li><em className="fw-semibold">1st Runner-Up In Segment Kick-R at MIST
+                                                Robolution-2019.</em></li>
+                                            <p> ROBOLUTION is the biggest national robotics competition in Bangladesh
+                                                organized by MIST Robotics Club of a renowned university, Military
+                                                Institute
+                                                of Science And Technology.
+                                            </p>
+                                            <li><em className="fw-semibold">Runner-Up In Segment Soccerbot at National Robotech Festival-2017.</em></li>
+                                            <p> National Robotech Festival fosters collaboration between industry and academia, bridging gaps with research mentors, and preparing students for tech industry demands.
+                                            </p>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div className="resume-item">
+                                <h4>Higher Secondary School(HSC)</h4>
+                                <h5>2012 - 2014</h5>
+                                <p><b>Institution: </b><em>Milestone School & College, Uttara, Dhaka, Bangladesh.</em>
+                                </p>
+                                <p>
+                                I have learned the basics of physics, chemistry, and mathematics here with an
+                                    excellent results.
+                                </p>
+                            </div>
+
                             <h3 className="resume-title">Education Summary</h3>
                             <div className="resume-item pb-0">
                                 <h4>Paid & Free Courses From Internet</h4>
@@ -31,86 +74,26 @@ function Resume() {
                                     <li><b>Others Platform:</b> Medium, Blinkist, ChatGPT, LinkedIN, Quora.</li>
                                 </ul>
                             </div>
-
-                            <h3 className="resume-title">Academic Education</h3>
-                            <div className="resume-item">
-                                <h4>B.sc in Electrical and Electronics Engineering (EEE).</h4>
-                                <h5>2016 - 2021</h5>
-                                <p><b>Institution: </b><em>United International University(UIU), Dhaka, Bangladesh.</em></p>
-                                <p>
-                                    At university, I prioritized problem-solving and project-based learning over
-                                    academic results to shape my individuality and build a strong foundation for my present.
-                                </p>
-                                <ul>
-                                    <li><b>Thesis: </b>
-                                        Optimization of Energy Usage for Edifice Electrical Appliances Using IoT.
-                                    </li>
-                                    <li><b>Competitions: </b>
-                                        <ul>
-                                            <li><em className="fw-semibold">1st Runner-Up In Segment Kick-R at MIST Robolution-2019.</em></li>
-                                            <p> ROBOLUTION is the biggest national robotics competition in Bangladesh
-                                                organized by MIST Robotics Club of a renowned university, Military Institute
-                                                of Science And Technology.
-                                            </p>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className="resume-item">
-                                <h4>Higher Secondary School(HSC)</h4>
-                                <h5>2012 - 2014</h5>
-                                <p><b>Institution: </b><em>Milestone School & College, Uttara, Dhaka, Bangladesh.</em></p>
-                                <p>
-                                    I have learned the basics of physics, chemistry, and mathematics here with an
-                                    excellent results.
-                                </p>
-                            </div>
                         </div>
                         <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                             <h3 className="resume-title">Professional Experience</h3>
                             <div className="resume-item">
                                 <h4>Full-Stack Software Developer</h4>
-                                <h5>2022 - Present</h5>
-                                <p><em>CIS Tech Ltd, Dhaka, Bangladesh. </em></p>
+                                <h5>April 2018 - Present</h5>
+                                <p><em>CIS Tech limited. (formerly Creative IT soft), Dhaka, Bangladesh. </em></p>
                                 <ul>
+
                                     <p>
                                         CIS Tech Ltd. is a provider of full-stack Software development services and
                                         custom Software development services based on Software as a Service(SaaS) and
                                         Software as a product(SaaP).
                                     </p>
-                                    <li>Build web application for different industry.
-                                    </li>
-                                    <li>Manage small group of software engineer.
-                                    </li>
-                                    <li>Distribute task to engineer based on skills.
-                                    </li>
-                                    <li>Apply DevOps methodology to develop applications.
-                                    </li>
-                                    <li>Work on mobile application mostly native iOS.
-                                    </li>
-                                    <li>Deploy project to the cloud.
-                                    </li>
-                                    <li>Achieve comfort in many areas of computing.
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className="resume-item">
-                                <h4>Software Developer</h4>
-                                <h5>April, 2018 - December, 2021</h5>
-                                <p><em>Creative IT Soft, Dhaka, Bangladesh.</em></p>
-                                <ul>
-                                    <p>
-                                        Creative IT Soft is a software development company where I worked as a part-time
-                                        software developer during my university studies. This opportunity allowed me to
-                                        gain hands-on experience in computer programming and software development while
-                                        improving my skills.
-                                    </p>
-                                    <li>Build website for different industry.
-                                    </li>
-                                    <li>Create and design full website.
-                                    </li>
-                                    <li>Deploy project to the cloud.
-                                    </li>
+                                    <li>Progressed from Junior Developer to Full Stack Software Developer, working both web and mobile application development for Android and iOS platforms</li>
+                                    <li>Designed and implemented front-end interfaces using modern frameworks such as React, Vue.js, Ant Design, Bootstrap, and Tailwind, enhancing user experience and performance</li>
+                                    <li>Developed and optimized back-end systems using PHP, Laravel, Python, and Django, integrating RESTful APIs and ensuring smooth cross-platform functionality</li>
+                                    <li>Led research in IoT projects, developing prototypes using Raspberry Pi, Jetson nao, ESP32, and Arduino, focusing on sensor integration and smart device automation</li>
+                                    <li>Collaborated with teams to design complex algorithms, conducted system architecture reviews, and ensured scalable and maintainable code</li>
+                                    <li>Mentored junior developers, conducted code reviews, and led thead option of Agile methodologies, improving development efficiency and team collaboration.</li>
                                 </ul>
                             </div>
                         </div>

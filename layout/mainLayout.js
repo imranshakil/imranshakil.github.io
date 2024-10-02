@@ -12,12 +12,12 @@ const MainLayout = () => {
     return (
         <>
             <Sidebar/>
-            <Hero/>
+            {/*<Hero/>*/}
             <main id="main">
                 <About/>
                 {/*<Facts/>*/}
-                <Skills/>
                 <Portfolio/>
+                <Skills/>
                 <Resume/>
                 <Services/>
                 {/*<Testimonials/>*/}
