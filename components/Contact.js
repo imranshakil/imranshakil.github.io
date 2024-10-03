@@ -20,7 +20,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        const recaptchaValue = grecaptcha.getResponse(recaptchaRef.current); // Use the ref here
+        const recaptchaValue = grecaptcha.getResponse(); // Call without any parameter
 
         if (!recaptchaValue) {
             alert('Please complete the reCAPTCHA.');
@@ -40,6 +40,8 @@ const Contact = () => {
             message: formData.get('message'),
             recaptcha: recaptchaValue // Include the reCAPTCHA value
         };
+
+        console.log("templateParams", templateParams)
 
         // Send the email using EmailJS
         emailjs
@@ -119,7 +121,7 @@ const Contact = () => {
                                 <div className="sent-message">Your message has been sent. Thank you!</div>
                             </div>
                             <div className="g-recaptcha" ref={recaptchaRef} data-sitekey="6Lcj-FYqAAAAAIZSNdk5Rnjk811w95ElSdy39NWE"></div>
-                            <div className="text-center">
+                            <div className="text-center mt-3">
                                 <button type="submit">Send Message</button>
                             </div>
                         </form>
