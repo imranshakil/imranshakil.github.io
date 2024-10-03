@@ -33,7 +33,7 @@ const Contact = () => {
             .then((response) => {
                 console.log("Email sent successfully!", response);
                 setSuccessMessage("Your message has been sent successfully!");
-                e.target.reset(); // Reset form after successful submission
+                e.target.reset();
                 setLoading(false);
             })
             .catch((error) => {
@@ -61,17 +61,17 @@ const Contact = () => {
                     <div className="col-lg-5 d-flex align-items-stretch">
                         <div className="info">
                             <div className="address">
-                                <i className="bi bi-geo-alt" />
+                                <i className="bi bi-geo-alt"/>
                                 <h4>Location:</h4>
                                 <p>Lalmatia, Dhaka, Bangladesh.</p>
                             </div>
                             <div className="email">
-                                <i className="bi bi-envelope" />
+                                <i className="bi bi-envelope"/>
                                 <h4>Email:</h4>
                                 <p>imranhshakil69@gmail.com</p>
                             </div>
                             <div className="phone">
-                                <i className="bi bi-phone" />
+                                <i className="bi bi-phone"/>
                                 <h4>Call:</h4>
                                 <p>+880 1711261000, +880 1830521516</p>
                             </div>
@@ -90,36 +90,40 @@ const Contact = () => {
                             <div className="row">
                                 <div className="form-group col-md-6">
                                     <label htmlFor="name">Your Name</label>
-                                    <input type="text" name="name" className="form-control" id="name" required />
+                                    <input type="text" name="name" className="form-control" id="name" required/>
                                 </div>
                                 <div className="form-group col-md-6">
                                     <label htmlFor="email">Your Email</label>
-                                    <input type="email" className="form-control" name="email" id="email" required />
+                                    <input type="email" className="form-control" name="email" id="email" required/>
                                 </div>
                             </div>
                             <div className="form-group">
                                 <label htmlFor="subject">Subject</label>
-                                <input type="text" className="form-control" name="subject" id="subject" required />
+                                <input type="text" className="form-control" name="subject" id="subject" required/>
                             </div>
                             <div className="form-group">
                                 <label htmlFor="message">Message</label>
-                                <textarea className="form-control" name="message" id="message" rows="10" required></textarea>
+                                <textarea className="form-control" name="message" id="message" rows="10"
+                                          required></textarea>
                             </div>
                             <div className="my-3">
-                                {loading && <div className="loading">Sending your message...</div>}
                                 {errorMessage && <div className="error-message">{errorMessage}</div>}
                                 {successMessage && <div className="sent-message">{successMessage}</div>}
                             </div>
                             <div className="text-center mt-3">
-                                <button type="submit" disabled={loading} className={`btn ${loading ? "loading" : ""}`}>
-                                    {loading ? (
-                                        <span>
-                                            <i className="bi bi-arrow-repeat spinner"></i> Sending...
-                                        </span>
-                                    ) : (
-                                        "Send Message"
-                                    )}
-                                </button>
+                                {/*<button type="submit" disabled={loading} className={`btn ${loading ? "loading" : ""}`}>*/}
+                                {/*    {loading ? (*/}
+                                {/*        <span>*/}
+                                {/*            <i className="bi bi-arrow-repeat spinner"></i> Sending...*/}
+                                {/*        </span>*/}
+                                {/*    ) : (*/}
+                                {/*        "Send Message"*/}
+                                {/*    )}*/}
+                                {/*</button>*/}
+
+                                <div className="text-center mt-3">
+                                    <button type="submit">{loading ? "Loading..." : "Send Message"}</button>
+                                </div>
                             </div>
                         </form>
                     </div>
