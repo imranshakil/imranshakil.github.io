@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import emailjs from 'emailjs-com';
 
-const serviceId = "service_82w3e7n"; // Replace with your EmailJS service ID
-const templateId = "template_z28at74"; // Replace with your EmailJS template ID
-const publicKey = "sZXQkiUCi9RsiDdsG"; // Replace with your EmailJS public key
+const serviceIdVal = "service_82w3e7n"; // Replace with your EmailJS service ID
+const templateIdVal = "template_z28at74"; // Replace with your EmailJS template ID
+const publicKeyVal = "sZXQkiUCi9RsiDdsG"; // Replace with your EmailJS public key
 
 const Contact = () => {
     const [loading, setLoading] = useState(false);
@@ -16,9 +16,9 @@ const Contact = () => {
         setErrorMessage("");
         setSuccessMessage("");
 
-        const serviceId = "service_82w3e7n"; // Replace with your EmailJS service ID
-        const templateId = "template_z28at74"; // Replace with your EmailJS template ID
-        const publicKey = "sZXQkiUCi9RsiDdsG"; // Replace with your EmailJS public key
+        const serviceId = serviceIdVal; // Replace with your EmailJS service ID
+        const templateId = templateIdVal; // Replace with your EmailJS template ID
+        const publicKey = publicKeyVal; // Replace with your EmailJS public key
 
         const formData = new FormData(e.target);
         const templateParams = {
@@ -38,7 +38,12 @@ const Contact = () => {
             })
             .catch((error) => {
                 console.error("Error sending email:", error);
-                setErrorMessage("An error occurred while sending your message. Please try again later.");
+                // Set a user-friendly error message based on the error response
+                if (error.status === 412) {
+                    setErrorMessage("Authentication failed: Insufficient authentication scopes.");
+                } else {
+                    setErrorMessage("An error occurred while sending your message. Please try again later.");
+                }
                 setLoading(false);
             })
             .finally(() => {
