@@ -82,7 +82,7 @@ function About() {
                                             <span>Available</span>
                                         </li>
                                         <li><i className="bi bi-chevron-right"/> <strong>Email:</strong>
-                                            <span>imranshakil77@gmail.com</span>
+                                            <span>imranhshakil69@gmail.com</span>
                                         </li>
                                         <li><i className="bi bi-chevron-right"/> <strong>Address:</strong>
                                             <span>Dhaka, Bangladesh.</span>
