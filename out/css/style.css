@@ -44,6 +44,21 @@ h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+.btn {
+  display: inline-flex; /* Ensure it stays inline */
+  align-items: center; /* Center content vertically */
+}
+
+.loading {
+  opacity: 0.7; /* Optional: Make the button slightly transparent while loading */
+  pointer-events: none; /* Prevent interactions while loading */
+}
+
+.spinner {
+  margin-right: 5px; /* Space between spinner and text */
+  animation: spin 1s linear infinite; /* Add a spinning animation */
+}
+
 .min-h-176 {
   min-height: 176px;
 }
