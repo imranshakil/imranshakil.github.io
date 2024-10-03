@@ -6,26 +6,8 @@ const templateId = "template_z28at74"; // Replace with your EmailJS template ID
 const publicKey = "sZXQkiUCi9RsiDdsG"; // Replace with your EmailJS public key
 
 const Contact = () => {
-    const recaptchaRef = useRef();
-
-    // Load the reCAPTCHA script
-    useEffect(() => {
-        const script = document.createElement('script');
-        script.src = "https://www.google.com/recaptcha/api.js";
-        script.async = true;
-        script.defer = true;
-        document.body.appendChild(script);
-    }, []);
-
     const sendEmail = (e) => {
         e.preventDefault();
-
-        const recaptchaValue = grecaptcha.getResponse(); // Call without any parameter
-
-        if (!recaptchaValue) {
-            alert('Please complete the reCAPTCHA.');
-            return;
-        }
 
         const serviceId = "service_82w3e7n"; // Replace with your EmailJS service ID
         const templateId = "template_z28at74"; // Replace with your EmailJS template ID
@@ -38,10 +20,7 @@ const Contact = () => {
             email: formData.get('email'),
             subject: formData.get('subject'),
             message: formData.get('message'),
-            recaptcha: recaptchaValue // Include the reCAPTCHA value
         };
-
-        console.log("templateParams", templateParams)
 
         // Send the email using EmailJS
         emailjs
@@ -50,7 +29,6 @@ const Contact = () => {
                 console.log("Email sent successfully!", response);
                 alert('Your message has been sent successfully!');
                 e.target.reset(); // Reset form after successful submission
-                grecaptcha.reset(recaptchaRef.current); // Reset reCAPTCHA after successful submission
             })
             .catch((error) => {
                 console.error("Error sending email:", error);
@@ -120,7 +98,6 @@ const Contact = () => {
                                 <div className="error-message"></div>
                                 <div className="sent-message">Your message has been sent. Thank you!</div>
                             </div>
-                            <div className="g-recaptcha" ref={recaptchaRef} data-sitekey="6Lcj-FYqAAAAAIZSNdk5Rnjk811w95ElSdy39NWE"></div>
                             <div className="text-center mt-3">
                                 <button type="submit">Send Message</button>
                             </div>
