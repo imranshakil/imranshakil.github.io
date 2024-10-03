@@ -112,9 +112,18 @@ const Contact = () => {
                                           required></textarea>
                             </div>
                             <div className="my-3">
-                                {errorMessage && <div className="error-message">{errorMessage}</div>}
-                                {successMessage && <div className="sent-message">{successMessage}</div>}
+                                {errorMessage && (
+                                    <div className="alert alert-danger" role="alert">
+                                        {errorMessage}
+                                    </div>
+                                )}
+                                {successMessage && (
+                                    <div className="alert alert-success" role="alert">
+                                        {successMessage}
+                                    </div>
+                                )}
                             </div>
+
                             <div className="text-center mt-3">
                                 {/*<button type="submit" disabled={loading} className={`btn ${loading ? "loading" : ""}`}>*/}
                                 {/*    {loading ? (*/}
