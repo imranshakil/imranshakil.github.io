@@ -169,6 +169,17 @@
       "additional": ""
     },
     {
+      "name": "Smart Home system",
+      "platform": "IoT",
+      "cover_img": "img/portfolio/iot/app03/01.png",
+      "project_link": "https://github.com/imranshakil",
+      "short_intro": "Smart Home System is an IoT platform that integrates EasyEDA, ESP32, and Flutter to create a seamless home automation experience. Developed over 3 months, this project leverages Embedded C for device control, offering advanced functionality for home applications.",
+      "tech_stack": ["EasyEDA", "ESP32", "Flutter", "Embedded C"],
+      "duration": "3 Month",
+      "role": "Home Application",
+      "additional": ""
+    },
+    {
       "name": "Internet of things (IOT) Do & Try",
       "platform": "IoT",
       "cover_img": "img/portfolio/iot/app00/01.jpeg",
