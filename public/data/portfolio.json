@@ -26,6 +26,17 @@
       "additional": ""
     },
     {
+      "name": "CIS Tech Web Content Management System1",
+      "platform": "Web",
+      "cover_img": "img/portfolio/web/app01/01.png",
+      "project_link": "https://cistechltd.com/",
+      "short_intro": "CIS Tech Ltd. is a technology consulting and software development company based in Bangladesh. They provide a wide range of services, including web and mobile application development, software testing, and IT consulting. Their website, cistechltd.com, offers information about their services, portfolio, and company culture.",
+      "tech_stack": ["HTML", "CSS", "JS", "PHP", "Laravel", "Mysql"],
+      "duration": "6 Months",
+      "role": "Full-Stack Developer",
+      "additional": ""
+    },
+    {
       "name": "Yotta Small & Medium Enterprise Application",
       "platform": "Web",
       "cover_img": "img/portfolio/web/app06/02.png",
