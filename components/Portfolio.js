@@ -23,11 +23,11 @@ function Portfolio() {
                         <div className="col-lg-12 d-flex justify-content-center">
                             <ul id="portfolio-flters">
                                 <li data-filter="*" className="filter-active">All</li>
+                                <li data-filter=".IoT">IoT & Robotics</li>
                                 <li data-filter=".Web">Web</li>
                                 <li data-filter=".iOS">iOS</li>
                                 <li data-filter=".Android">Android</li>
                                 <li data-filter=".Electronics">Electronics</li>
-                                <li data-filter=".IoT">IoT & Robotics</li>
                                 <li data-filter=".Others">Others</li>
                             </ul>
                         </div>

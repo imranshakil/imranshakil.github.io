@@ -4,6 +4,17 @@
   "desc": "",
   "portfolio": [
     {
+      "name": "Robot Joyee",
+      "platform": "IoT",
+      "cover_img": "img/portfolio/iot/app00/01.jpeg",
+      "project_link": "https://github.com/imranshakil",
+      "short_intro": "A hands-on IoT project exploring various hardware and software integrations including Raspberry Pi, Arduino, ESP32, and sensors for developing innovative IoT solutions.",
+      "tech_stack": ["Raspberry_pi", "ESP32", "ESP8266", "Arduino", "GPS", "GSM", "Moisture sensor", "Digital IC", "Motor", "Electronics", "Sonar", "LDR", "Temperature", "Gas Sensor", "C++"],
+      "duration": "1 year",
+      "role": "",
+      "additional": ""
+    },
+    {
       "name": "CIS Tech Web Content Management System",
       "platform": "Web",
       "cover_img": "img/portfolio/web/app01/01.png",

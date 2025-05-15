@@ -1,8 +1,8 @@
 function Skills() {
     let technologies = {
         web: ["Python", "Django", "PHP", "Laravel", "Rest API", "Mysql", "React.js", "NextJS", "HTML", "CSS", "JavaScript", "Bootstrap", "Tailwind", "Ant Design", "Tailwind"],
-        ios: ["iOS", "Xcode", "Swift", "SwiftUI", "CoreData", "Core Animation", "JSON", "Alamofire", "API"],
-        android: ["Android", "Android Studio", "Java", "XML", "Retrofit", "JSON", "SQLite", "API"],
+        ios: ["iOS", "Xcode", "Swift", "SwiftUI", "CoreData", "Core Animation", "JSON", "Alamofire", "API", "Flutter"],
+        android: ["Android", "Android Studio", "Java", "XML", "Retrofit", "JSON", "SQLite", "API", "Flutter"],
         electronics: ["EasyEDA", "Proteus", "Microcontroller", "PCB", "Matlab", "VHDL"],
         iot: ["Raspberry PI", "ESP32", "ESP8266", "ESP32CAM", "Arduino", "Jetson Nano", "PCB Design", "Python", "C++"],
         others: ["AWS", "GoDaddy", "cPanels", "Sketch", "Draw.io", "Figma", "Keynote", "Postman"]

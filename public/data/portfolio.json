@@ -4,6 +4,17 @@
   "desc": "",
   "portfolio": [
     {
+      "name": "Robot Joyee",
+      "platform": "IoT",
+      "cover_img": "img/portfolio/iot/app04/01.png",
+      "project_link": "https://fb.watch/wyBqkNGVMk/",
+      "short_intro": "This is an autonomous robot system utilizing the Nvidia Jetson\nNano, designed for efficient self-navigation and task\nmanagement. The system integrates Simultaneous Lo-\ncalization and Mapping (SLAM), Adaptive Monte Carlo\nLocalization (AMCL), and LiDAR for accurate real-\ntime mapping and localization. Microcontrollers are\nemployed for task execution, user interaction, and real-\ntime monitoring via a web portal, with task completion\nverified through QR code scanning and voice notifications\nto the user. The system allows users to send requests for\nitem retrieval or delivery, with the robot autonomously\ncarrying out the tasks. The robot was tested in various\nenvironments, demonstrating high task accuracy, energy\nefficiency, and reliable performance. Future work will\nfocus on priority-based task execution, energy-efficient\npath planning, and advanced user identification systems.",
+      "tech_stack": ["Nvidia Jetson Nano", "2D Lidar", "Motor Driver", "ESP32", "ROS", "SLAM", "AMCL", "ActionLib", "URDF", "ETC"],
+      "duration": "1.5 year",
+      "role": "IoT System Engineer(Work on both hardware & software)",
+      "additional": "Work on both hardware & software"
+    },
+    {
       "name": "CIS Tech Web Content Management System",
       "platform": "Web",
       "cover_img": "img/portfolio/web/app01/01.png",
