@@ -14,7 +14,7 @@ const MainLayout = () => {
             <Sidebar/>
             {/*<Hero/>*/}
             <main id="main">
-                <About/>
+                {/*<About/>*/}
                 {/*<Facts/>*/}
                 <Portfolio/>
                 <Skills/>
